@@ -1,0 +1,55 @@
+.failureContainer {
+  background-image: url('https://res.cloudinary.com/dtjcxf7z5/image/upload/v1650260401/Mini%20Project%20Netflix%20Clone/failure_view_bg_a1zuq5.png');
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeButton {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: rgb(37, 149, 201);
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+}
+
+.not-found-paragraph {
+  color: rgb(3, 3, 3);
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.not-found-heading {
+  color: rgb(3, 3, 3);
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 576px) {
+  .not-found-paragraph {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 996px) {
+  .not-found-paragraph {
+    font-size: 20px;
+    text-align: center;
+  }
+}

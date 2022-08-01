@@ -1,0 +1,33 @@
+.popular-image {
+  width: 125px;
+  margin: 6px;
+  border-radius: 8px;
+}
+
+.popular-video-list-container {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular-video-list {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .popular-image {
+    max-width: 90px;
+    margin: 3px;
+    max-height: auto;
+  }
+  .popular-video-list {
+    padding-left: 4px;
+  }
+}
